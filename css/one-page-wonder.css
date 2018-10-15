@@ -18,6 +18,10 @@ h6 {
   font-weight: 700 !important;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .btn-xl {
   text-transform: uppercase;
   padding: 1.5rem 3rem;
