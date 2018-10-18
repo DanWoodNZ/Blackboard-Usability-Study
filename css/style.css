@@ -28,8 +28,18 @@ h6 {
     margin: 20px;
   }
   .section-img {
-    max-width: 250px;
+    max-width: 100px !important;
   }
+}
+
+.section-img {
+  max-width: 250px !important;
+}
+
+.divider-light {
+  border-bottom: 2px solid rgb(228, 228, 228);
+  margin: 50px 60px 0px 60px;
+  padding: 0px;
 }
 
 h2 {
@@ -190,7 +200,7 @@ header.masthead .masthead-content .masthead-heading {
 
 .section-style {
   margin: 0 auto;
-  padding: 100px 0px 0px 0px;
+  padding: 80px 0px 0px 0px;
   overflow: hidden;
   position: static;
   width: 100%;
@@ -203,11 +213,11 @@ header.masthead .masthead-content .masthead-heading {
 }
 
 .small-body-text {
-  font-size: 13px;
+  font-size: 1em;
 }
 
 .tiny-body-text {
-  font-size: 10px;
+  font-size: 13px;
 }
 
 /* Team members */
@@ -273,6 +283,11 @@ header.masthead .masthead-content .masthead-heading {
 .btn-secondary:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
+
+.btn-dark {
+  padding: 20px;
+  border-radius: 25px;
 }
 
 .button-form {
