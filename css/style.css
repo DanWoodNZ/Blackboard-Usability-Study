@@ -31,6 +31,18 @@ h6 {
   }
 }
 
+/* IMAGES */
+
+.table-img {
+  max-width: 300px;
+}
+
+.heading-icon {
+  color: rgb(231, 231, 231);
+  font-size: 45px;
+  padding-left: 30px;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -176,6 +188,14 @@ header.masthead .masthead-content .masthead-heading {
   }
 }
 
+.small-body-text {
+  font-size: 13px;
+}
+
+.tiny-body-text {
+  font-size: 10px;
+}
+
 /* Team members */
 
 .team-member-info{
@@ -200,11 +220,6 @@ header.masthead .masthead-content .masthead-heading {
 }
 .team-member-img {
   max-width: 250px;
-}
-
-.reflection-body {
-  font-size: 13px;
-  text-align: justify;
 }
 
 .bg-primary {
