@@ -193,6 +193,12 @@ header.masthead .masthead-content .masthead-heading {
   font-weight: 100;
   font-size: 15px;
 }
+.team-member-img-container {
+  width: 100%;
+}
+.team-member-img {
+  max-width: 250px;
+}
 
 .bg-primary {
   background-color: #ee0979 !important;
