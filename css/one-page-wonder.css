@@ -200,6 +200,11 @@ header.masthead .masthead-content .masthead-heading {
   max-width: 250px;
 }
 
+.reflection-body {
+  font-size: 13px;
+  text-align: left !important;
+}
+
 .bg-primary {
   background-color: #ee0979 !important;
 }
