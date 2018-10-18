@@ -53,6 +53,10 @@ h2 {
   max-width: 300px;
 }
 
+.graph-img {
+  max-width: 600px;
+}
+
 .heading-icon {
   color: rgb(231, 231, 231);
   font-size: 45px;
