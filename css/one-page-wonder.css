@@ -156,7 +156,7 @@ header.masthead .masthead-content .masthead-heading {
     overflow: hidden;
     position: static;
     width: 100%;
-    height: 100vh;
+    min-height: 500px;
 }
 
 /* Team members */
