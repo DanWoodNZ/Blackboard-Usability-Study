@@ -5,7 +5,7 @@
  */
 
 body {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 h1,
@@ -14,9 +14,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 700 !important;
-} @media (max-width: 992px) {
+}
+@media (max-width: 992px) {
   .display-4 {
     font-size: 40px;
   }
@@ -29,6 +30,11 @@ h6 {
   .section-img {
     max-width: 250px;
   }
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 /* IMAGES */
@@ -64,7 +70,8 @@ html {
 }
 
 .box-shadow-1 {
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+    0 1px 2px rgba(0, 0, 0, 0.24);
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   -ms-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   -o-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -77,15 +84,18 @@ html {
 }
 
 .box-shadow-1:hover {
-  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+    0 6px 6px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+    0 6px 6px rgba(0, 0, 0, 0.23);
   -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .box-shadow-2 {
-  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+    0 3px 6px rgba(0, 0, 0, 0.23);
   -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   -ms-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   -o-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -93,10 +103,14 @@ html {
 }
 
 .box-shadow-4 {
-  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  -moz-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  -ms-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  -o-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+  -ms-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+  -o-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
@@ -124,7 +138,7 @@ html {
   letter-spacing: 0.1rem;
   color: rgb(48, 48, 48);
   padding: 10px;
-  display:inline-block;
+  display: inline-block;
   text-align: center;
 }
 
@@ -166,7 +180,6 @@ header.masthead .masthead-content .masthead-heading {
   margin-bottom: 200px;
 }
 
-
 .hero-img {
   width: 70%;
   margin-left: auto;
@@ -176,13 +189,14 @@ header.masthead .masthead-content .masthead-heading {
 }
 
 .section-style {
-    margin: 0 auto;
-    padding: 100px 0px 0px 0px;
-    overflow: hidden;
-    position: static;
-    width: 100%;
-    min-height: 500px;
-}  @media (max-width: 992px){
+  margin: 0 auto;
+  padding: 100px 0px 0px 0px;
+  overflow: hidden;
+  position: static;
+  width: 100%;
+  min-height: 500px;
+}
+@media (max-width: 992px) {
   .section-style {
     text-align: center;
   }
@@ -198,11 +212,11 @@ header.masthead .masthead-content .masthead-heading {
 
 /* Team members */
 
-.team-member-info{
+.team-member-info {
   font-family: Montserrat, sans-serif;
   text-align: center;
-  width: 100%; 
-  padding: 30px 0px 20px 0px; 
+  width: 100%;
+  padding: 30px 0px 20px 0px;
   text-align: center;
 }
 
@@ -233,7 +247,9 @@ header.masthead .masthead-content .masthead-heading {
   padding: 10px 25px 10px 25px;
 }
 
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
   background-color: #663169;
 }
 
@@ -247,7 +263,9 @@ header.masthead .masthead-content .masthead-heading {
   border-color: #ff6a00;
 }
 
-.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+.btn-secondary:active,
+.btn-secondary:focus,
+.btn-secondary:hover {
   background-color: #cc5500 !important;
   border-color: #cc5500 !important;
 }
@@ -258,12 +276,12 @@ header.masthead .masthead-content .masthead-heading {
 }
 
 .button-form {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
